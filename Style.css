@@ -1,0 +1,68 @@
+*{
+   padding: 1%; 
+   margin: 0;
+}
+body{
+    background-color: #f1f1f1;    
+}
+/* Style the Calculatorbody div */
+.Calculatorbody {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color:black;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+  }
+  
+  /* Style the table */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  /* Style the table cells */
+  td {
+    padding: 5px;
+    text-align: center;
+  }
+  
+
+    
+  input[type="text"] {
+    text-align: center;
+    width: 350%;
+  height: 50px;
+  font-size: 18px;
+  margin: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+  cursor: pointer;
+  }
+    input[type="button"] {
+    width: 50px;
+    height: 50px;
+    font-size: 18px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    cursor: pointer;
+  }
+  
+  /* Style the equals button */
+  input[type="button"][value="="] {
+    background-color: #28a745;
+    color: #fff;
+    border: 1px solid #28a745;
+  }
+  
+  /* Style the clear button */
+  input[type="button"][value="C"] {
+    background-color: #dc3545;
+    color: #fff;
+    border: 1px solid #dc3545;
+  }
